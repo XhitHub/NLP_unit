@@ -1,0 +1,9 @@
+python -m spacy download en_core_web_sm
+py -m spacy download en_core_web_sm
+
+
+
+Repl.it:
+Ctrl shift s
+
+python3 -m spacy download en_core_web_sm

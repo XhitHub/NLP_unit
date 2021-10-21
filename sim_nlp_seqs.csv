@@ -1,0 +1,29 @@
+depSeq,lemmaSeq,posSeq,_text,tagSeq
+ nsubj ROOT prep pobj prep pobj punct ," -PRON- go to school by bus . 
+
+", PRON VERB ADP NOUN ADP NOUN PUNCT SPACE,"I go to school by bus.
+
+", PRP VBP IN NN IN NN . _SP
+ nsubj ROOT dobj prep pobj punct ," module implement generator for distribution . 
+
+", PROPN VERB NOUN ADP NOUN PUNCT SPACE,"module implements generators for distributions.
+
+", NNP VBZ NNS IN NNS . _SP
+ prep pobj punct ROOT dobj prep pobj punct," for integer , uniform selection from range .", ADP NOUN PUNCT ADJ NOUN ADP NOUN PUNCT,"For integers, uniform selection from range."," IN NNS , JJ NN IN NN ."
+ prep pobj punct amod nsubj prep pobj punct ROOT aux advcl dobj prep pobj prep punct pobj punct cc conj prep pobj prep pobj punct ," for sequence , uniform selection of element , function to generate permutation of list in - place , and function for sampling without replacement . 
+
+", ADP NOUN PUNCT ADJ NOUN ADP NOUN PUNCT VERB PART VERB NOUN ADP NOUN ADP PUNCT NOUN PUNCT CCONJ VERB ADP NOUN ADP NOUN PUNCT SPACE,"For sequences, uniform selection of element, function to generate permutation of list in-place, and function for sampling without replacement.
+
+"," IN NNS , JJ NN IN NN , VBP TO VB NN IN NN IN HYPH NN , CC VB IN NN IN NN . _SP"
+ prep pobj punct expl ROOT attr aux relcl dobj punct conj punct punct amod punct amod intj punct conj punct cc conj appos punct," on line , there be function to compute uniform , Gaussian ) , lognormal , negative exponential , gamma , and beta distribution .", ADP NOUN PUNCT PRON AUX NOUN PART VERB NOUN PUNCT PROPN PUNCT PUNCT PROPN PUNCT ADJ NOUN PUNCT NOUN PUNCT CCONJ NOUN NOUN PUNCT,"On line, there are functions to compute uniform, Gaussian), lognormal, negative exponential, gamma, and beta distributions."," IN NN , EX VBP NNS TO VB NN , NNP -RRB- , NNP , JJ NN , NN , CC NN NNS ."
+ prep pobj prep pobj punct nsubj ROOT acomp punct ," for distribution of angle , distribution be available . 
+
+", ADP NOUN ADP NOUN PUNCT NOUN AUX ADJ PUNCT SPACE,"For distributions of angles, distribution is available.
+
+"," IN NNS IN NNS , NN VBZ JJ . _SP"
+ nsubj ROOT prep pobj amod punct punct punct nsubj advcl dobj advmod prep pobj punct appos punct appos punct punct," function depend on function random ( ) , which generate float uniformly in range [ 0.0 , 1.0 ) .", NOUN VERB ADP NOUN ADJ PUNCT PUNCT PUNCT DET VERB VERB ADV ADP NOUN PUNCT NUM PUNCT NUM PUNCT PUNCT,"functions depend on function random(), which generates float uniformly in range [0.0, 1.0)."," NNS VBP IN NN JJ -LRB- -RRB- , WDT VBZ VBP RB IN NN -LRB- CD , CD -RRB- ."
+ nsubj ROOT dobj prep pobj punct, Python use Twister as generator ., PROPN VERB PROPN SCONJ NOUN PUNCT,Python uses Twister as generator., NNP VBZ NNP IN NN .
+ nsubj ROOT dobj cc conj dobj prep pobj punct prep punct, -PRON- produce float and have period of 2**19937 - 1 ., PRON VERB NOUN CCONJ AUX NOUN ADP NUM SYM NUM PUNCT,It produces floats and has period of 2**19937-1., PRP VBZ NNS CC VBZ NN IN CD SYM CD .
+ nsubj prep pobj ROOT preconj acomp cc conj punct, implementation in C be both fast and threadsafe ., NOUN ADP PROPN AUX CCONJ ADJ CCONJ ADJ PUNCT,implementation in C is both fast and threadsafe., NN IN NNP VBZ CC JJ CC JJ .
+ nsubj ROOT attr prep pobj prep pobj punct, Twister be one of generator in existence ., PROPN AUX NUM ADP NOUN ADP NOUN PUNCT,Twister is one of generators in existence., NNP VBZ CD IN NNS IN NN .
+ advmod punct advcl advmod acomp punct nsubj ROOT neg acomp prep pobj punct cc conj advmod acomp prep pobj punct," however , be completely deterministic , -PRON- be not suitable for purpose , and be completely unsuitable for purpose .", ADV PUNCT AUX ADV ADJ PUNCT PRON AUX PART ADJ ADP NOUN PUNCT CCONJ AUX ADV ADJ ADP NOUN PUNCT,"However, being completely deterministic, it is not suitable for purposes, and is completely unsuitable for purposes."," RB , VBG RB JJ , PRP VBZ RB JJ IN NNS , CC VBZ RB JJ IN NNS ."
