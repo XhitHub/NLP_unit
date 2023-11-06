@@ -1,37 +1,37 @@
-,_text,compound,ROOT_text,prep,det_text,nummod,preconj_text,appos_text,nsubj_text,dobj_text,amod_text,neg_text,relcl_text,nsubj,compound_text,relcl,conj,preconj,acomp,cc_text,expl,pobj_text,npadvmod,nummod_text,dep,appos,punct_text,conj_text,attr,advcl,attr_text,neg,ROOT,advmod,acomp_text,advmod_text,advcl_text,dobj,cc,npadvmod_text,amod,aux,expl_text,punct,aux_text,prep_text,pobj,text,dep_text,det
-"
-
-","
-
-",,go,by,,,,,I,,,,,-PRON-,,,,,,,,bus,,,,,.,,,,,,go,,,,,,,,,,,.,,by,bus,"I go to school by bus.
-
-",,
-"
-
-","
-
-",number,implements,for,This,,,,module,generators,various,,,module,number,,,,,,,distributions,pseudo,,,,.,,,,,,implement,,,,,generator,,pseudo,various,,,.,,for,distribution,"This module implements pseudo-random number generators for various distributions.
-
-",,this
-,,,uniform,from,a,,,,,selection,,,,,,,,,,,,range,,,,,.,,,,,,uniform,,,,,selection,,,,,,.,,from,range,"For integers, uniform selection from a range.",,a
-"
-
-","
-
-",,selection,without,a,,,function,,permutation,random,,generate,,,generate,function,,,and,,replacement,,,,function,.,function,,,,,selection,,,,,permutation,and,,random,to,,.,to,without,replacement,"For sequences, uniform selection of a random element, a function to generate a random permutation of a list in-place, and a function for random sampling without replacement.
-
-",,a
-,,,are,on,the,,,Gaussian,,distributions,negative,,compute,,,compute,beta,,,and,there,line,,,,Gaussian,.,beta,function,,functions,,be,,,,,distribution,and,,negative,to,there,.,to,On,line,"On the real line, there are functions to compute uniform, normal (Gaussian), lognormal, negative exponential, gamma, and beta distributions.",,the
-"
-
-","
-
-",Mises,is,of,the,,,,distribution,,generating,,,distribution,Mises,,,,available,,,angles,,,,,.,,,,,,be,,available,,,,,,generate,,,.,,of,angle,"For generating distributions of angles, the von Mises distribution is available.
-
-",,the
-,,module,depend,in,the,all,,1.0,which,float,open,,generates,which,module,generate,,,,,,range,,all,-,1.0,.,,,,,,depend,uniformly,,uniformly,,float,,,open,,,.,,in,range,"Almost all module functions depend on the basic function random(), which generates a random float uniformly in the semi-open range [0.0, 1.0).",-,the
-,,core,uses,as,the,,,,Python,Twister,,,,Python,core,,,,,,,generator,,,,,.,,,,,,use,,,,,Twister,,,,,,.,,as,generator,Python uses the Mersenne Twister as the core generator.,,the
-,,precision,produces,1,a,53-bit,,,It,period,,,,-PRON-,precision,,have,,,and,,2**19937,,53-bit,,,.,has,,,,,produce,,,,,period,and,,,,,.,,1,2**19937,It produces 53-bit precision floats and has a period of 2**19937-1.,,a
-,,,is,in,The,,both,,implementation,,underlying,,,implementation,,,threadsafe,both,fast,and,,C,,,,,.,threadsafe,,,,,be,,fast,,,,and,,underlying,,,.,,in,C,The underlying implementation in C is both fast and threadsafe.,,the
-,,number,is,in,the,,,,Twister,,random,,,Twister,number,,,,,,,existence,,,,,.,,one,,one,,be,extensively,,extensively,,,,,random,,,.,,in,existence,The Mersenne Twister is one of the most extensively tested random number generators in existence.,,the
-,,,is,for,all,,,,it,,cryptographic,not,,-PRON-,,,be,,unsuitable,and,,purposes,,,,,.,is,,be,,not,be,completely,unsuitable,completely,being,,and,,cryptographic,,,.,,for,purpose,"However, being completely deterministic, it is not suitable for all purposes, and is completely unsuitable for cryptographic purposes.",,all
+det,punct_text,dobj,npadvmod_text,appos_text,attr,npadvmod,conj,nsubj_text,nsubj,relcl,neg_text,dep_text,advcl_text,pobj,advmod_text,nmod_text,advmod,nummod_text,appos,ROOT,aux_text,mark_text,amod_text,attr_text,acomp_text,pobj_text,dobj_text,acl_text,expl_text,acl,compound,mark,nummod,ROOT_text,preconj,prep,dep,conj_text,prep_text,compound_text,cc,amod,punct,advcl,neg,text,nmod,cc_text,aux,preconj_text,expl,det_text,relcl_text,acomp
+,.,,,,,,,I,I,,,"
+",,bus,,,,,,go,,,,,,bus,,,,,,,,go,,by,"
+",,by,,,,.,,,"I go to school by bus.
+",,,,,,,,
+,.,,,,,,,She,she,,,"
+",,taxi,,,,,,go,,,,,,taxi,,,,,,,,go,,by,"
+",,by,,,,.,,,"She go to work by taxi.
+",,,,,,,,
+this,.,generator,,,,,,module,module,,,"
+",,distribution,,,,,,implement,,,various,,,distributions,generators,,,,number,,,implements,,for,"
+",,for,number,,various,.,,,"This module implements pseudo-random number generators for various distributions.
+",,,,,,This,,
+a,.,,,,,,,,,,,,,range,,,,,,selection,,,uniform,,,range,,,,,,,,selection,,from,,,from,,,uniform,.,,,"For integers, uniform selection from a range.",,,,,,a,,
+a,.,permutation,,selection,,,function,,,generate,,"
+",,replacement,,,,,selection,function,to,,random,,,replacement,permutation,,,,,,,function,,without,"
+",function,without,,and,random,.,,,"For sequences, uniform selection of a random element, a function to generate a random permutation of a list in-place, and a function for random sampling without replacement.
+",,and,to,,,a,generate,
+the,.,uniform,,Gaussian,function,,distribution,,,,,,,line,,,,,Gaussian,be,to,,negative,functions,,line,uniform,compute,there,compute,beta,,,are,,on,,distributions,On,beta,and,negative,.,,,"On the real line, there are functions to compute uniform, normal (Gaussian), lognormal, negative exponential, gamma, and beta distributions.",,and,to,,there,the,,
+the,.,,,,,,,distribution,distribution,,,"
+",,angle,,,,,,be,,,generating,,available,angles,,,,,Mises,,,is,,of,"
+",,of,Mises,,generate,.,,,"For generating distributions of angles, the von Mises distribution is available.
+",,,,,,the,,available
+the,.,float,0.0,1.0,,0.0,,which,which,generate,,,,range,uniformly,[,uniformly,,1.0,depend,,,open,,,range,float,,,,module,,,depend,,in,,,in,module,,open,.,,,"Almost all module functions depend on the basic function random(), which generates a random float uniformly in the semi-open range [0.0, 1.0).",[,,,,,the,generates,
+the,.,Twister,,,,,,Python,Python,,,,,generator,,,,,,use,,,,,,generator,Twister,,,,core,,,uses,,as,,,as,core,,,.,,,Python uses the Mersenne Twister as the core generator.,,,,,,the,,
+a,.,period,,,,,have,It,it,,,,,2**19937,,,,53,,produce,,,,,,2**19937,period,,,,precision,,53,produces,,1,,has,1,precision,and,,.,,,It produces 53-bit precision floats and has a period of 2**19937-1.,,and,,,,a,,
+the,.,,,,,,threadsafe,implementation,implementation,,,,,C,,,,,,be,,,underlying,,fast,C,,,,,,,,is,both,in,,threadsafe,in,,and,underlie,.,,,The underlying implementation in C is both fast and threadsafe.,,and,,both,,The,,fast
+the,.,,,,one,,,Twister,Twister,,,,,existence,extensively,,extensively,,,be,,,random,one,,existence,,,,,number,,,is,,in,,,in,number,,random,.,,,The Mersenne Twister is one of the most extensively tested random number generators in existence.,,,,,,the,,
+all,.,,,,,,be,it,it,,not,"
+",being,purpose,completely,,completely,,,be,,,cryptographic,,unsuitable,purposes,,,,,,,,is,,for,"
+",is,for,,and,cryptographic,.,be,not,"However, being completely deterministic, it is not suitable for all purposes, and is completely unsuitable for cryptographic purposes.
+",,and,,,,all,,unsuitable
+,.,,,,,,,you,you,,,"
+",go,bus,,,,,,be,will,If,,,late,bus,,,,,,if,,be,,by,"
+",,by,,,,.,go,,"If you go to destination by bus, you will be late.
+",,,will,,,,,late
+,.,,,,,,,you,you,,,,go,time,,,,,,be,will,If,,,,time,,,,,,if,,be,,on,,,on,,,,.,go,,"If you go to destination by taxi, you will be on time.",,,will,,,,,

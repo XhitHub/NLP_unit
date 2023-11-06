@@ -5,7 +5,7 @@ import nlp.nlp_controller as nlpc
 inputFolder = 'files/inputs'
 outputFolder = 'files/outputs'
 
-project = 't1'
+project = 't3'
 
 def run():
   inFilename = inputFolder + '/' + project + '.txt'
