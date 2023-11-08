@@ -21,7 +21,8 @@ def run(project):
       nlpDict = nlpc.sentToNLPSequence(sent)
       nlpDict['_text'] = nlpDict['_text'].replace('\n', '')
       nlpDict['lemmaSeq'] = nlpDict['lemmaSeq'].replace('\n', '')
-      nlpDicts.append(nlpDict)
+      if nlpDict['_text'] != '':
+        nlpDicts.append(nlpDict)
       pos = nlpDict['posSeq']
       if pos not in nlpTypesDict:
         nlpTypesDict[pos] = {
